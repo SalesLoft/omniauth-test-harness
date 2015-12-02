@@ -83,7 +83,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dotenv-rails
   omniauth
   pg
   rails (~> 4.0.0)
   sqlite3
+
+BUNDLED WITH
+   1.10.4
