@@ -8,8 +8,7 @@ gem 'omniauth'
 
 gem 'dotenv-rails'
 
-# Clone the omniauth-salesloft gem to support this line
-# gem 'omniauth-salesloft', :path => "~/src/omniauth-salesloft"
+gem 'omniauth-salesloft', source: "http://gems.salesloft.com"
 
 group :development do
   gem 'sqlite3'
