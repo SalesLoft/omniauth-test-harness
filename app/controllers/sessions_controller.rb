@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
   def index
-    @strategies = OmniAuth.strategies
+    @strategies = OmniAuth::Strategies.constants.map{ |sym| "OmniAuth::Strategies::#{sym}".constantize }
   end
 
   def create
