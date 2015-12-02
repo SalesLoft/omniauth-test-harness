@@ -26,6 +26,13 @@ Rails.application.config.middleware.use OmniAuth::Builder do
 end
 ```
 
+Add the SQL Folder
+
+```bash
+mkdir db
+touch development.sqlite3
+```
+
 Start this test application:
 
 ```shell
